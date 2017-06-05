@@ -14,12 +14,6 @@ html {
   height: 100%;
   width: 100%;
 }
-
-.logo {
-  height: 150px;
-  width: 150px;
-}
-
 body {
   box-sizing: border-box;
   // font: 20px;
@@ -27,8 +21,8 @@ body {
 
 .title {
   font-family: "Dancing Script", cursive;
-  position: absolute;
-  padding-left: 10%;
+  // position: absolute;
+  // padding-left: 10%;
   font-weight: bold;
 
   h1{
@@ -53,8 +47,8 @@ a {
 
 nav {
   background-color: #fff;
-  padding-top: 100px;
-  height: 150px;
+  padding-top: 20px;
+  height: 75px;
   box-shadow: none;
 }
 
@@ -113,11 +107,9 @@ footer {
 
   overflow: hidden;
 
-  // background-image: url("../images/brutus-headshot.jpg");
-  // background-repeat: no-repeat;
   img{
-    border: 1px white solid;
+    border: 2px #555 solid;
     border-radius: 10px 10px 10px 10px;
-    // display: none;;
+    margin: 10px 0 10px 0;
   }
 }

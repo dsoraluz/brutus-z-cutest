@@ -1,4 +1,10 @@
-h1 {
-  font-family: 'Dancing Script', cursive;
-  // font-weight: bold;
+#about-section {
+  h1 {
+    font-family: 'Dancing Script', cursive;
+  }
+  img {
+    border: 2px #555 solid;
+    border-radius: 10px 10px 10px 10px;
+  }
+
 }
