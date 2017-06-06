@@ -1,4 +1,10 @@
 #contact-section {
+  .content-wrapper {
+    // height: auto;
+    display: flex;
+    align-items: flex-end;
+
+  }
   h1 {
     font-size: 80px;
     margin-bottom: 50px;

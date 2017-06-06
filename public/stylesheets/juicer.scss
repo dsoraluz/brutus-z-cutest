@@ -1,0 +1,25 @@
+ul.j-filters.filters{
+  display: none;
+}
+
+ul.juicer-feed.j-initialized.j-modern.juicer-widget.loaded{
+  width: 50%;
+  height: auto;
+}
+
+li.feed-item.j-youtube.j-video.jonathan-sterritt {
+  border-width: 0 0 0 0;
+  // width: 600px;
+
+  div.j-poster {
+    display: none;
+  }
+  p {
+    display: none;
+    font-family: 'Sanchez', sans-serif;
+  }
+
+  div.j-meta {
+    display: none;
+  }
+}
