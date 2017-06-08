@@ -26,12 +26,28 @@
   }
 }
 
+input::-webkit-input-placeholder {
+color: #9e9e9e !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #9e9e9e !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #9e9e9e !important;
+}
+
+input:-ms-input-placeholder {
+color: #9e9e9e !important;
+}
+
 /* label focus color */
-   .input-field input[type=text]:focus + label {
+.input-field input[type=text]:focus + label {
      color: #555;
 }
 /* label underline focus color */
-   .input-field input[type=text]:focus {
+.input-field input[type=text]:focus {
      border-bottom: 1px solid #555;
      box-shadow: 0 1px 0 0 #555;
    }

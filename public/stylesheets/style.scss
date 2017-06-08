@@ -106,10 +106,22 @@ footer {
 #site-content {
 
   overflow: hidden;
+  // text-align: right;
 
   img{
     border: 2px #555 solid;
     border-radius: 10px 10px 10px 10px;
     margin: 10px 0 10px 0;
+  }
+
+  .caption {
+    padding-top: 50px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    span {
+      font-size: 60%;
+    }
   }
 }
