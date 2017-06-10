@@ -19,20 +19,6 @@ body {
   // font: 20px;
 }
 
-.title {
-  font-family: "Dancing Script", cursive;
-  // position: absolute;
-  // padding-left: 10%;
-  font-weight: bold;
-
-  h1{
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 1000%;
-    color: #555;
-  }
-}
 
 
 img {
@@ -50,6 +36,15 @@ nav {
   padding-top: 25px;
   height: 75px;
   box-shadow: none;
+
+  .brand-logo {
+    span {
+      font-family: "Dancing Script", cursive;
+      font-size: 25px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+  }
 }
 
 .nav a {
@@ -75,6 +70,12 @@ nav {
 
   }
   span {
+    // @media only screen and (min-width: 1299px) and (max-width: 1299px)
+
+    @media only screen and (min-width: 1301px) and (max-width: 1332px) {
+      font-size: 34px;
+    }
+    width: 25%;
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
     font-weight: bold;
@@ -85,10 +86,22 @@ nav {
   }
 }
 
+#hr-header-mobile {
+  hr{
+    border-color: #555;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
 footer {
   .social{
     display:inline-block;
-    margin: 0 5px;
+    margin: 0 3px;
+    @media only screen and (min-width: 778px) and (max-width: 1440px) {
+      height: 12px;
+      width: 12px;
+    }
     height: 16px;
     width: 16px;
     border-radius: 50%;
@@ -103,6 +116,7 @@ footer {
   }
 }
 
+
 #site-content {
 
   overflow: hidden;
@@ -112,11 +126,14 @@ footer {
     border: 2px #555 solid;
     border-radius: 10px 10px 10px 10px;
     margin: 10px 0 10px 0;
+    // position: relative;
   }
 
   .caption {
     padding-top: 50px;
     position: absolute;
+    // float: right;
+
     height: 100%;
     width: 100%;
     text-align: center;

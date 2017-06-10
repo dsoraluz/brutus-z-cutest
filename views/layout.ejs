@@ -17,20 +17,18 @@
     <link rel="stylesheet" href="/stylesheets/social.min.css">
     <link rel="stylesheet" href="/stylesheets/about.min.css">
     <link rel="stylesheet" href="/stylesheets/contact.min.css">
+    <link rel="stylesheet" href="/stylesheets/gallery.min.css">
     <link rel="stylesheet" href="/stylesheets/youtube.min.css">
     <link rel="stylesheet" href="/stylesheets/juicer.min.css">
   </head>
 
-  <section class="">
-    <!-- <div class="title">
-      <h1>Brutus Z Cutest</h1>
-    </div> -->
+  <section>
     <div class="container">
       <div class="row">
         <div class="col s12">
           <nav id="header" class="nav">
             <div class="nav-wrapper">
-              <a href="#!" class="brand-logo hide-on-med-and-up"><span></span></a>
+              <a href="#!" class="brand-logo hide-on-med-and-up"><span>#BrutusZCutest</span></a>
               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
               <ul class="left hide-on-med-and-down">
                 <li> <a href="/">Home</a> </li>
@@ -53,28 +51,32 @@
 
           </nav>
 
-          <div id="hr-header" class="">
+          <div id="hr-header" class="hide-on-med-and-down">
             <hr /> <span>#BrutusZCutest</span>
 
+          </div>
+
+          <div id="hr-header-mobile" class="hide-on-med-and-up">
+            <hr />
           </div>
 
           <body>
             <%- body %>
           </body>
 
-          <footer>
+          <footer class="social-container">
             <div class="row">
               <div class="col l1 m5 s5">
                 <div class="social">
-                  <span><a href="https://www.instagram.com/brutuszcutest/"><img src="./images/instagram-4-512.png"></img></a></span>
+                  <span><a href="https://www.instagram.com/brutuszcutest/"><img class="responsive-img" src="./images/instagram-4-512.png"></img></a></span>
 
                 </div>
                 <div class="social">
-                  <span><a href="#"></a><img href="#" src="./images/facebook-4-512.png"></img></span>
+                  <span><a href="#"></a><img class="responsive-img" src="./images/facebook-4-512.png"></img></span>
 
                 </div>
                 <div class="social">
-                  <span><a href="#"></a><img href="#" src="./images/twitter-4-512.png"></img></span>
+                  <span><a href="https://twitter.com/BrutusZCutest"><img class="responsive-img" src="./images/twitter-4-512.png"></img></a></span>
 
                 </div>
 
@@ -91,13 +93,16 @@
         </div>
       </div>
     </div>
-
-
   </section>
 
+
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
   <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
   <script src="https://apis.google.com/js/platform.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
   <script src="./javascripts/app.js" type="text/javascript"></script>
+
+
+
 </html>

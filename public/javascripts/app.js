@@ -1,5 +1,4 @@
 $(document).ready(()=>{
-  $('.button-collapse').sideNav();
 
   // $('.title').hide();
   // $('.title').fadeIn(3000,()=>{
@@ -74,4 +73,6 @@ $(document).ready(()=>{
   //     $('#message').val(`${value}`);
   //   }
   // });
+
+  $(".button-collapse").sideNav();
 });
