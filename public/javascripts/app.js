@@ -76,4 +76,5 @@ $(document).ready(()=>{
 
   $(".button-collapse").sideNav();
   $('.carousel').carousel();
+  $('.collapsible').collapsible();
 });

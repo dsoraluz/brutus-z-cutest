@@ -16,12 +16,19 @@
     font-family: 'Oswald', sans-serif;
   }
 
-  ul {
-    text-align: left;
+  .collapsible-header, .collapsible-body {
+    font-family: "Oswald", sans-serif;
+
+  }
+
+  .collapsible-body {
+    font-size: 140%;
+    color: #555;
+    font-weight: bold;
   }
 
   .faq {
-    padding-top: 30px;
+    padding-top: 25px;
   }
 
 }
