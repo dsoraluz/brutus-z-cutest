@@ -29,6 +29,8 @@ siteRoutes.post('/contact', (req,res,next)=>{
   let name = req.body.name;
   let email = req.body.email;
 
+  const brutusEmail = process.env.GMAIL_USERNAME;
+
   let userMessage = req.body.message;
 
 
@@ -44,13 +46,13 @@ siteRoutes.post('/contact', (req,res,next)=>{
   // Setup email data with unicode symbols
   let mailOptions = {
     // Sender address
-    from: `New Soul Transformation <soultrahsformation@gmail.com>`,
+    from: `Contact @ Brutus Z Cutest <brutuszcutest@gmail.com>`,
     // List of receivers
-    to: `${email}`,
+    to: `${brutusEmail}`,
     // Subject Line
-    subject: `${toFirstName}, Welcome to New Soul Transformation!!`,
+    subject: `New Message for Brutus!`,
     // Plain text body
-    html: `<h2> WELCOME! </h2> \n <p>${toFirstName}, <br/><br/> Send your friends the following link </p> \n <a href="localhost:3000/signup/${id}">  <h3>SIGNUP LINK</h3> </a>`
+    html: `<h2> Some one wants to reach out: </h2> \n <p>Who: ${name} <br/><br/> Email: ${email} <br/><br/> Message: <br/></br/> ${userMessage}`
   };
 
   // Send mail with defined transport object

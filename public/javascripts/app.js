@@ -77,4 +77,8 @@ $(document).ready(()=>{
   $(".button-collapse").sideNav();
   $('.carousel').carousel();
   $('.collapsible').collapsible();
+
+  $('.collapsible-header').click((event)=>{
+    $('.carousel img').trigger("click");
+  });
 });

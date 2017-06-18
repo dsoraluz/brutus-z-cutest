@@ -5,7 +5,8 @@ const logger       = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser   = require('body-parser');
 const layouts      = require('express-ejs-layouts');
-
+const dotenv = require("dotenv");
+dotenv.config();
 
 const app = express();
 
