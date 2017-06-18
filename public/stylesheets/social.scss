@@ -4,6 +4,10 @@
     width: 4.56rem;
     margin: 0 10px 0 10px;
 
+    @media only screen and (max-width: 395px){
+        height: 3.56rem;
+        width: 3.56rem;
+    }
     .social-icon:hover {
       cursor: grab;
     }

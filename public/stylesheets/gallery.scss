@@ -4,10 +4,26 @@
     font-weight: 200;
     font-style: italic;
     color: #555;
+    @media screen and (max-width: 400px){
+      font-size: 330%;
+    }
   }
 
   .collapsible-header {
     font-family: "Oswald", sans-serif;
+  }
+
+  .collapsible-body {
+    padding: 0 0 0 0;
+  }
+
+  @media screen and (min-width: 400px){
+    .carousel .carousel-item img {
+      width: 150%;
+      margin-top: -75px;
+
+
+    }
   }
 
 }

@@ -1,1 +1,1 @@
-#social .social-icon{height:4.56rem;width:4.56rem;margin:0 10px 0 10px}#social .social-icon .social-icon:hover{cursor:grab}#social .hashtag{font-family:'Fontdiner Swanky', cursive;color:#555}#social .juicer-feed{margin-top:15px}
+#social .social-icon{height:4.56rem;width:4.56rem;margin:0 10px 0 10px}@media only screen and (max-width: 395px){#social .social-icon{height:3.56rem;width:3.56rem}}#social .social-icon .social-icon:hover{cursor:grab}#social .hashtag{font-family:'Fontdiner Swanky', cursive;color:#555}#social .juicer-feed{margin-top:15px}

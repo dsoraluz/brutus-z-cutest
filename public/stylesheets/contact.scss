@@ -12,6 +12,10 @@
     font-size: 80px;
     margin-bottom: 50px;
     color: #555;
+
+    @media screen and (max-width: 600px){
+      font-size: 330%;
+    }
   }
   p {
     font-family: 'Oswald', sans-serif;
