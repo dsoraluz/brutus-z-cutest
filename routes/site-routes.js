@@ -52,7 +52,7 @@ siteRoutes.post('/contact', (req,res,next)=>{
     // Subject Line
     subject: `New Message for Brutus!`,
     // Plain text body
-    html: `<h2> Some one wants to reach out: </h2> \n <p>Who: ${name} <br/><br/> Email: ${email} <br/><br/> Message: <br/></br/> ${userMessage}`
+    html: `<h2> Someone wants to reach out: </h2> \n <p>Who: ${name} <br/><br/> Email: ${email} <br/><br/> Message: <br/></br/> ${userMessage}`
   };
 
   // Send mail with defined transport object
